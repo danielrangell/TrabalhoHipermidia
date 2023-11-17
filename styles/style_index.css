@@ -2,21 +2,11 @@
   margin: 0;
   padding: 0;
 }
-.cabecalho{
-    background: linear-gradient(135deg, purple, #2d003d, #89023e, #ff6b6b);
-    height: 100%;
-    border: none;
-   
-}
 
-.lista{
-  display: flex;
-  font-size: 20px;
-  justify-content: end;
-  text-decoration: none;
+h2{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-
+  font-weight: 700;
+  font-size: 40px;
 }
 
 li{
@@ -28,7 +18,6 @@ li{
 
 a{
   text-decoration: none;
-  color: white;
 }
 
 body{
@@ -45,27 +34,84 @@ body{
 #logo{
   width: 100px;
   height: auto;
-  margin-left: 50%;
-  margin-top: 10px;
-  border-radius: 7px;
+  margin: 0 50%;
 }
 
 .imggta6{
-    width: 60%;
-    height: 40%;
+    margin-top: 60px;
+    margin-left: 1px;
+    width: 70%;
+    height: 50%;
     border-radius: 5px;
     float: left;
 }
 
-.lateral{
+.lateral {
   display: flex;
-  color:white;
+  color: white;
   font-size: 20px;
   margin-left: 30px;
+  flex-direction: column; 
 }
 
-h2{
+.cabecalho{
+  background: linear-gradient(135deg, purple, #2d003d, #89023e, #ff6b6b);
+  width: 100%;
+  border: none;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.menu{
+  display: flex;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 1%;
+}
+
+.btn{
+  background-color: #ff6b6b;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 15%;
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  margin: 0 20px;
+}
+
+a{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+.btn:hover{
+  background: linear-gradient(135deg, purple, #2d003d, #89023e, #ff6b6b);
+  transition: 0.5s;
+}
+
