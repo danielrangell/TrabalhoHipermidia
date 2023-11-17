@@ -38,6 +38,8 @@ body{
 .conteudo{
   height: 100%;
   width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 #logo{
@@ -59,6 +61,7 @@ body{
   display: flex;
   color:white;
   font-size: 20px;
+  margin-left: 30px;
 }
 
 h2{
