@@ -6,9 +6,9 @@
     background: linear-gradient(135deg, purple, #2d003d, #89023e, #ff6b6b);
     height: 100%;
     border: none;
-    
    
 }
+
 .lista{
   display: flex;
   font-size: 20px;
@@ -18,12 +18,14 @@
   font-size: 20px;
 
 }
+
 li{
   list-style: none;
   text-decoration: none;
   margin: 50px;
   
 }
+
 a{
   text-decoration: none;
   color: white;
@@ -31,7 +33,6 @@ a{
 
 body{
   background-color: #000000;
-
 }
 
 .conteudo{
@@ -48,15 +49,20 @@ body{
 }
 
 .imggta6{
-    width:950px;
-    height:520px;
+    width: 60%;
+    height: 40%;
     border-radius: 5px;
+    float: left;
 }
+
 .lateral{
   display: flex;
   color:white;
   font-size: 20px;
-  position: absolute;
-  left: 70%;
-  
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
 }
