@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.cabecalho{
+  height: 100px;
+  width: 1356px;
+  background-color: gray;
+}
+.lista{
+  display: flex;
+  font-size: 20px;
+  justify-content: end;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+li{
+  list-style: none;
+  text-decoration: none;
+  margin: 50px;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.conteudo{
+  height: 500px;
+  width: 1356px;
+  background-color: #f2f2f2;
+}
