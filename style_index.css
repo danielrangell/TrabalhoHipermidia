@@ -3,9 +3,11 @@
   padding: 0;
 }
 .cabecalho{
-  height: 100px;
-  width: 1356px;
-  background-color: gray;
+    background: linear-gradient(135deg, purple, #2d003d, #89023e, #ff6b6b);
+    height: 100%;
+    border: none;
+    
+   
 }
 .lista{
   display: flex;
@@ -27,7 +29,26 @@ a{
   color: white;
 }
 .conteudo{
-  height: 500px;
+  height: 1300px;
   width: 1356px;
-  background-color: #f2f2f2;
+  background-color: #000000;
+}
+#logo{
+  width: 100px;
+  height: auto;
+  margin-left: 50%;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+.imggta6{
+    width:950px;
+    height:520px;
+    border-radius: 5px;
+}
+.lateral{
+  display: flex;
+  color:white;
+  font-size: 20px;
+  justify-content:right;
+  
 }
