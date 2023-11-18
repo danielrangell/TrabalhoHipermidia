@@ -11,26 +11,22 @@ body {
   color: #fff;
 }
 
-/* Cabeçalho */
-header {
+.cabecalho {
   background: linear-gradient(135deg, purple, #2d003d, #89023e, #ff6b6b);
   width: 100%;
   border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   z-index: 100;
   position: fixed;
   top: 0;
-}
-
-.cabecalho {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 10px 20px;
 }
 
 #logo {
   width: 100px;
   height: auto;
+  border-radius: 7px;
 }
 
 /* Conteúdo */
@@ -63,6 +59,6 @@ h1 {
 }
 
 
-.conteudo{
+.conteudo {
   padding: 0% 5%;
 }
