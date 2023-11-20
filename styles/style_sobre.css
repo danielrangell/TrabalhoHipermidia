@@ -1,14 +1,9 @@
-/* Reset */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-/* Estilos gerais */
 body {
   background-color: #000;
   color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .cabecalho {
@@ -25,16 +20,14 @@ body {
 #logo {
   width: 100px;
   height: auto;
-  margin: 0 46%;
+  margin: 0 auto;
 }
 
-/* Conteúdo */
 h1 {
   text-align: center;
   margin-top: 100px;
 }
 
-/* Botão Voltar */
 .btn-voltar {
   display: block;
   width: 200px;
@@ -57,10 +50,10 @@ h1 {
   transition: 0.5s;
 }
 
-
 .conteudo {
-  padding: 0% 5%;
+  padding: 0 5%;
 }
+
 .menu {
   display: flex;
   text-decoration: none;
@@ -69,13 +62,15 @@ h1 {
   position: absolute;
   margin-left: 1%;
 }
-li{
+
+li {
   color: white;
   list-style: none;
   text-decoration: none;
   margin: 50px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 ul {
   display: flex;
   justify-content: center;
@@ -89,7 +84,8 @@ ul li {
   display: flex;
   margin: 0 20px;
 }
-a{
+
+a {
   color: white;
   text-decoration: none;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
